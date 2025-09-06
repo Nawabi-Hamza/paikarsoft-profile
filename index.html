@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paikar Software - School MIS System</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="School MIS, School Management, Attendance, Exams, Finance, Parent Portal, Teachers" name="keywords">
+    <meta content="A complete School Management Information System to manage students, teachers, classes, parents, attendance, exams, finance, and reports." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-custom bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-custom position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">PaikarSoft</h1>
+                </a>
+                <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#overview" class="nav-item nav-link">Overview</a>
+                        <a href="#features" class="nav-item nav-link">Features</a>
+                        <a href="#pricing" class="nav-item nav-link">Pricing</a>
+                        <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="tel:+93771844770" class="btn btn-light rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Contact Us</a>
+                </div>
+            </nav>
+
+            <div class="container-custom bg-primary hero-header">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">All-in-One School Management Information System</h1>
+                            <p class="text-white pb-3 animated slideInDown">Manage Students, Teachers, Classes, Attendance, Exams, Finance, and Parent Communication in one powerful School MIS platform.</p>
+                            <div class="position-relative w-100 mt-3">
+                                <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 58px;">
+                                <button type="button" class="btn btn-primary rounded-pill py-2 px-3 shadow-none position-absolute top-0 end-0 m-2">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid rounded animated zoomIn" src="project_pic/Screenshot 2025-09-06 164248.png" alt="School MIS">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Feature Start -->
+        <div class="container-custom py-6">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded text-center p-5">
+                            <i class="fa fa-4x fa-user-graduate text-primary mb-4"></i>
+                            <h5 class="mb-3">Student Management</h5>
+                            <p class="m-0">Easily manage student records, admissions, and performance all in one place.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded text-center p-5">
+                            <i class="fa fa-4x fa-chalkboard-teacher text-primary mb-4"></i>
+                            <h5 class="mb-3">Teacher & Classes</h5>
+                            <p class="m-0">Assign teachers, schedule classes, and track academic progress effectively.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded text-center p-5">
+                            <i class="fa fa-4x fa-calendar-check text-primary mb-4"></i>
+                            <h5 class="mb-3">Attendance & Exams</h5>
+                            <p class="m-0">Mark attendance online and automate exam result generation with AI assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+
+        <!-- About Start -->
+        <div class="container-custom py-6" id="about">
+            <div class="container">
+                <div class="row g-5 flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">Simplify Your School Management</h1>
+                        <p class="mb-4">Our School MIS helps you automate attendance, exams, reports, and parent communication. Save valuable time for teachers and administrators while improving transparency with parents.</p>
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5>Easy to Use</h5>
+                                <p class="mb-0">Simple and intuitive dashboard for teachers, students, and parents.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5>24/7 Support</h5>
+                                <p class="mb-0">Our team is available anytime to help your school run smoothly.</p>
+                            </div>
+                        </div>
+                        <a href="#features" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Learn More</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid rounded wow zoomIn" data-wow-delay="0.5s" src="project_pic/Screenshot 2025-09-06 164157.png" alt="About School MIS">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- (rest of sections: Overview, Advanced Features, Pricing, Testimonials, Contact, Footer remain the same structurally — but I’ve replaced text with school MIS content) -->
+        <!-- Overview Start -->
+        <div class="container-custom bg-light my-6 py-5" id="overview">
+            <div class="container">
+                <div class="row g-5 py-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded" src="project_pic/Screenshot 2025-09-06 164014.png" alt="Parent Communication">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="mb-0">01</h1>
+                            <span class="bg-primary mx-2" style="width: 30px; height: 2px;"></span>
+                            <h5 class="mb-0">Parent Communication</h5>
+                        </div>
+                        <p class="mb-4">Instant messaging between teachers and parents keeps everyone informed about student progress and school events.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Secure parent portal</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Real-time updates</p>
+                        <p class="mb-0"><i class="fa fa-check-circle text-primary me-3"></i>Improved transparency</p>
+                    </div>
+                </div>
+                <div class="row g-5 py-5 align-items-center flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="mb-0">02</h1>
+                            <span class="bg-primary mx-2" style="width: 30px; height: 2px;"></span>
+                            <h5 class="mb-0">AI Attendance & Exams</h5>
+                        </div>
+                        <p class="mb-4">Our system uses AI to recognize attendance and assist teachers in grading exams faster and more accurately.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Face-recognition attendance</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Auto-graded exams</p>
+                        <p class="mb-0"><i class="fa fa-check-circle text-primary me-3"></i>Time-saving for teachers</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded" src="project_pic/Screenshot 2025-09-06 164324.png" alt="AI Attendance">
+                    </div>
+                </div>
+                <div class="row g-5 py-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded" src="project_pic/Screenshot 2025-09-06 171641.png" alt="Reports and Analytics">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="mb-0">03</h1>
+                            <span class="bg-primary mx-2" style="width: 30px; height: 2px;"></span>
+                            <h5 class="mb-0">Reports & Analytics</h5>
+                        </div>
+                        <p class="mb-4">Generate insightful reports on student performance, fee collection, attendance trends, and teacher activities in seconds.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Custom report builder</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Export to PDF/Excel</p>
+                        <p class="mb-0"><i class="fa fa-check-circle text-primary me-3"></i>Multi-language support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Overview End -->
+
+
+        <!-- Advanced Feature Start -->
+        <div class="container-custom py-6" id="features">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Advanced Features</h1>
+                    <p class="mb-5">School MIS offers advanced tools for administrators, teachers, students, and parents to stay connected and productive.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="advanced-feature-item text-center rounded py-5 px-4">
+                            <i class="fa fa-book fa-3x text-primary mb-4"></i>
+                            <h5 class="mb-3">Course Management</h5>
+                            <p class="m-0">Organize subjects, schedules, and learning materials with ease.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="advanced-feature-item text-center rounded py-5 px-4">
+                            <i class="fa fa-comments fa-3x text-primary mb-4"></i>
+                            <h5 class="mb-3">Messaging System</h5>
+                            <p class="m-0">Communicate instantly with students, parents, and teachers through the platform.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="advanced-feature-item text-center rounded py-5 px-4">
+                            <i class="fa fa-chart-line fa-3x text-primary mb-4"></i>
+                            <h5 class="mb-3">Activity Tracking</h5>
+                            <p class="m-0">Track student performance and teacher efficiency with smart analytics.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="advanced-feature-item text-center rounded py-5 px-4">
+                            <i class="fa fa-users-cog fa-3x text-primary mb-4"></i>
+                            <h5 class="mb-3">Committee & Employee</h5>
+                            <p class="m-0">Manage school staff, committees, and roles seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Advanced Feature End -->
+
+
+        <!-- Facts Start -->
+        <div class="container-custom bg-primary my-6 py-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-school fa-3x text-white mb-3"></i>
+                        <h1 class="mb-2" data-toggle="counter-up">1200</h1>
+                        <p class="text-white mb-0">Schools Using MIS</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-user-graduate fa-3x text-white mb-3"></i>
+                        <h1 class="mb-2" data-toggle="counter-up">95000</h1>
+                        <p class="text-white mb-0">Active Students</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-chalkboard-teacher fa-3x text-white mb-3"></i>
+                        <h1 class="mb-2" data-toggle="counter-up">7200</h1>
+                        <p class="text-white mb-0">Teachers Supported</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-star fa-3x text-white mb-3"></i>
+                        <h1 class="mb-2" data-toggle="counter-up">4800</h1>
+                        <p class="text-white mb-0">Positive Reviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+
+        <!-- Process Start -->
+        <div class="container-custom py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded" src="project_pic/Screenshot 2025-09-06 165038.png" alt="Process">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Three Simple Steps To Get Started</h1>
+                        <p class="mb-4">Our School MIS is quick to set up and simple to use. Within minutes, your school can start managing all processes digitally.</p>
+                        <ul class="process mb-0">
+                            <li>
+                                <span><i class="fa fa-cog"></i></span>
+                                <div>
+                                    <h5>Install the MIS</h5>
+                                    <p>Get the system installed on your school servers or use our cloud-based solution.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-user-cog"></i></span>
+                                <div>
+                                    <h5>Setup Roles & Classes</h5>
+                                    <p>Create admin, teacher, parent, and student accounts along with school classes.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-check"></i></span>
+                                <div>
+                                    <h5>Start Managing</h5>
+                                    <p>Enjoy automation in attendance, exams, fees, and real-time communication.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Process End -->
+        <!-- Pricing Start -->
+        <div class="container-custom py-6" id="pricing">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Choose Your Plan</h1>
+                    <p class="mb-5">Flexible pricing plans for schools of all sizes. Upgrade as your institution grows.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded text-center p-5">
+                            <h4 class="mb-3">Basic Plan</h4>
+                            <h1 class="display-4 mb-4">$19<span class="fs-5 fw-normal">/Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>Student & Teacher Management</li>
+                                <li>Attendance Tracking</li>
+                                <li>Basic Reports</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4 mt-3">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-white shadow rounded text-center p-5">
+                            <h4 class="mb-3">Standard Plan</h4>
+                            <h1 class="display-4 mb-4">$49<span class="fs-5 fw-normal">/Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>All Basic Features</li>
+                                <li>Exam & Result Management</li>
+                                <li>Parent Portal</li>
+                                <li>Messaging System</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4 mt-3">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="bg-light rounded text-center p-5">
+                            <h4 class="mb-3">Premium Plan</h4>
+                            <h1 class="display-4 mb-4">$99<span class="fs-5 fw-normal">/Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>All Standard Features</li>
+                                <li>AI Attendance & Exam Scoring</li>
+                                <li>Advanced Analytics & Reports</li>
+                                <li>Multi-Language Support</li>
+                                <li>24/7 Priority Support</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4 mt-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-custom py-6" id="testimonial">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">What Schools Say</h1>
+                    <p class="mb-5">Thousands of teachers, parents, and students trust School MIS to simplify education management.</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <p>"School MIS has transformed our daily operations. Attendance and exams are now fully digital, saving teachers hours each week."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Mr. Rahimi</h5>
+                                <small>School Principal</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <p>"Parents are happy because they can track student progress and communicate with teachers anytime. A must-have system!"</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Mrs. Akbari</h5>
+                                <small>Teacher</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <p>"We now manage fees, exams, and reports in one place. The analytics feature helps us make better school decisions."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Mr. Hussaini</h5>
+                                <small>Admin Officer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-custom py-6" id="contact">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">Contact Us</h1>
+                        <p class="mb-4">Have questions? Need a demo? Our support team is ready to assist your school 24/7.</p>
+                        <div class="d-flex mb-4">
+                            <div class="btn-square rounded-circle bg-primary text-white me-3">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <p class="mb-0">Kabul, Afghanistan</p>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="btn-square rounded-circle bg-primary text-white me-3">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <p class="mb-0">+93 766420877,</p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="btn-square rounded-circle bg-primary text-white me-3">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <p class="mb-0">hamza.nawabi119@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control py-3" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control py-3" placeholder="Your Email">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control py-3" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control py-3" rows="4" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-2 px-4" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light py-4">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2025 PaikarSoft. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Designed for Modern Schools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
